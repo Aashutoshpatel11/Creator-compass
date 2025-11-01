@@ -37,7 +37,7 @@ const musicContent = [
 
 function WhyChooseUs() {
   return (
-    <div className='w-full ' >
+    <div className='w-full' >
         <StickyScroll content={musicContent} />
     </div>
   )

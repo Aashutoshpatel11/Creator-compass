@@ -51,12 +51,13 @@ const featuredWebinars = [
 
 function FeaturedWebinar() {
   return (
-    <div className='flex flex-col gap-20 pt-20 bg-slate-950' >
+    <div className='flex flex-col gap-5 pb-10 px-30 pt-50 bg-slate-950' >
         <div className='flex flex-col justify-center items-center gap-3' >
             <h2 className='text-cyan-500/50 font-medium text-sm md:text-md' >FEATURED WEBINARS</h2>
             <p className='font-bold text-4xl md:text-5xl' >ENHANCE YOUR MUSICAL JOURNEY</p>
         </div>
         <HoverEffect 
+        className='gap-5'
         items={featuredWebinars.map( (webinar) => (
             {
                 title: webinar.title,
