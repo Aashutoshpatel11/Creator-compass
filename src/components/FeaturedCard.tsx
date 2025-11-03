@@ -22,8 +22,8 @@ function FeaturedCard() {
   return (
     <div className='flex flex-col justify-center items-center gap-5 p-20 bg-slate-950' >
         <div className='flex flex-col justify-center items-center gap-3' >
-            <h2 className='text-cyan-500/50 font-medium text-sm md:text-md' >FEATURED COURSES</h2>
-            <p className='font-bold text-4xl md:text-5xl' >Learn With the Best</p>
+            <h2 className='text-cyan-500/50 font-medium text-sm md:text-md' >FEATURED MASTERCLASSES</h2>
+            <p className='font-bold text-4xl md:text-5xl' >Start Your Creator Journey</p>
         </div>
         <div className="mt-10 mx-8">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
@@ -51,7 +51,7 @@ function FeaturedCard() {
                 className='cursor-pointer px-4 py-2 rounded-md shadow-xs hover:shadow-cyan-600 border border-gray-600 ' 
                 type="button"
                 >
-                    View All Courses
+                    View All Masterclasses
                 </button>
             </Link>
         </div>

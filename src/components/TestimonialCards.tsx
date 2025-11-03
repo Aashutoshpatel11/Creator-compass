@@ -3,36 +3,36 @@ import { InfiniteMovingCards } from './ui/infinity-moving-cards';
 import { div } from 'framer-motion/client';
 import { cn } from '@/lib/utils';
 
-const musicSchoolTestimonials = [
+const creatorTestimonials = [
     {
       quote:
-        'Joining the music school transformed my understanding of music and helped me to truly discover my own sound. The instructors are world-class!',
+        'Joining this academy transformed my understanding of content and helped me find my unique voice. The instructors are full-time creators who know what they\'re talking about!',
       name: 'Alex Johnson',
-      title: 'Guitar Student',
+      title: 'YouTuber (100k+ Subs)',
     },
     {
       quote:
-        "The community and support at this school are unmatched. I've grown not just as a pianist, but also as a performer, thanks to their comprehensive approach.",
+        "The community and support here are unmatched. I've grown not just as a streamer, but also as a brand, thanks to their comprehensive approach to monetization.",
       name: 'Samantha Lee',
-      title: 'Piano Student',
+      title: 'Twitch Partner',
     },
     {
       quote:
-        "This school offered me the tools and confidence to take my singing to the next level. I'm endlessly grateful for the personalized coaching.",
+        "This academy gave me the tools and confidence to take my content to the next level. I'm endlessly grateful for the personalized brand coaching.",
       name: 'Michael Chen',
-      title: 'Vocal Student',
+      title: 'TikTok Creator (1M+ Followers)',
     },
     {
       quote:
-        'As a violinist, finding the right mentor can be challenging, but this school matched me with a teacher who truly understands my goals and challenges.',
+        'As a podcaster, finding the right mentor can be challenging, but this program matched me with a strategist who truly understands my goals and challenges in the audio space.',
       name: 'Emily Taylor',
-      title: 'Violin Student',
+      title: 'Podcast Host',
     },
     {
       quote:
-        'The production courses here opened my eyes to the intricacies of music production. Highly recommend for any aspiring producers!',
+        'The sponsorship and brand deal courses here were a game-changer. I landed my first 4-figure deal just weeks after finishing. Highly recommend for any aspiring creators!',
       name: 'Chris Morales',
-      title: 'Music Production Student',
+      title: 'Instagram Influencer',
     },
   ];
 
@@ -50,9 +50,9 @@ function TestimonialCards() {
             <div className='flex flex-col justify-center items-center py-40 dark:bg-grid-white' >
             <h2
             className='mb-20 font-bold text-5xl z-10'
-            >Hear our Harmony: Voices of success</h2>
+            >Hear from our Community: Voices of Success</h2>
             <InfiniteMovingCards
-            items={musicSchoolTestimonials}
+            items={creatorTestimonials}
             direction="left"
             speed="normal"
             pauseOnHover

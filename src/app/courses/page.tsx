@@ -17,11 +17,11 @@ interface courseType{
 function coursesPage() {
   return (
     <div className='flex flex-col bg-black flex-wrap justify-center items-center min-h-screen py-12 pt-36' >
-        <h4 className='text-5xl font-bold'>{`ALL COURSES(${coursesData.courses.length})`}</h4>
+        <h4 className='text-5xl font-bold'>{`ALL MASTERCLASSES(${coursesData.courses.length})`}</h4>
         <div className="flex flex-wrap justify-center items-center" >
             {coursesData.courses.map( (course:courseType) => (
                 <CardContainer className="inter-var m-4 mb-2">
-                    <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
+                    <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/10 dark:bg-black dark:border-white/20 border-black/10 w-auto sm:w-120 h-auto rounded-xl p-6 border  ">
                         <CardItem
                         translateZ="50"
                         className="text-xl font-bold text-neutral-600 dark:text-white"
@@ -50,7 +50,7 @@ function coursesPage() {
                             as="button"
                             className=" cursor-pointer px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
                         >
-                            View
+                            Learn More
                         </CardItem>
                         </div>
                     </CardBody>

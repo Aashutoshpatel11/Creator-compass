@@ -23,9 +23,9 @@ function contactPage() {
       >
         <div className="flex flex-col justify-center items-center z-10" >
           <h2 className="pt-36 text-5xl font-bold mb-5" >Contact US</h2>
-          <p className="text-white/50 max-w-lg text-center mb-10" > We&apos;re here to help with any questions about our courses,
-            programs, or events. Reach out and let us know how we can assist you
-            in your musical journey.</p>
+          <p className="text-white/50 max-w-lg text-center mb-10" >We&apos;re here to help with any questions about our masterclasses,
+          programs, or events. Reach out and let us know how we can assist you
+          in your creator journey.</p>
           <input 
           className=" text-white/60 text-sm p-4 w-2xl h-16 bg-black rounded-xl mb-5"
           type="email" 

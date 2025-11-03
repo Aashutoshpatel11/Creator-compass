@@ -4,46 +4,46 @@ import { HoverEffect } from './ui/card-hover-effect';
 
 const featuredWebinars = [
     {
-      title: 'Understanding Music Theory',
+      title: 'Inside the Algorithm: YouTube 2025',
       description:
-        'Dive deep into the fundamentals of music theory and enhance your musical skills.',
-      slug: 'understanding-music-theory',
+        'A live dive with a YouTube strategist on what\'s working right now for channel growth.',
+      slug: 'youtube-algorithm-2025',
       isFeatured: true,
     },
     {
-      title: 'The Art of Songwriting',
+      title: 'The Future of AI in Content Creation',
       description:
-        'Learn the craft of songwriting from experienced musicians and songwriters.',
-      slug: 'the-art-of-songwriting',
+        'Explore AI tools for video editing, scriptwriting, and idea generation that save you time.',
+      slug: 'ai-in-content-creation',
       isFeatured: true,
     },
     {
-      title: 'Mastering Your Instrument',
+      title: 'Brand Deal Negotiation Masterclass',
       description:
-        'Advanced techniques to master your musical instrument of choice.',
-      slug: 'mastering-your-instrument',
+        'Learn how to price yourself, what to look for in a contract, and how to build long-term brand partners.',
+      slug: 'brand-deal-negotiation',
       isFeatured: true,
     },
     {
-      title: 'Music Production Essentials',
+      title: 'How to Build a 7-Figure Creator Business',
       description:
-        'Get started with music production with this comprehensive overview.',
-      slug: 'music-production-essentials',
+        'A case study with a top creator on diversifying income streams beyond simple ad revenue.',
+      slug: 'seven-figure-creator',
       isFeatured: true,
     },
     // Added two more webinars
     {
-      title: 'Live Performance Techniques',
+      title: 'The 30-Day TikTok Growth Plan',
       description:
-        'Enhance your live performance skills with expert tips and strategies.',
-      slug: 'live-performance-techniques',
+        'A live workshop outlining a content strategy to rapidly grow your TikTok presence.',
+      slug: 'tiktok-growth-plan',
       isFeatured: true,
     },
     {
-      title: 'Digital Music Marketing',
+      title: 'From Views to Community: Discord & Patreon',
       description:
-        'Learn how to promote your music effectively in the digital age.',
-      slug: 'digital-music-marketing',
+        'Learn how to move your audience off-platform to build a sustainable community and income.',
+      slug: 'views-to-community',
       isFeatured: true,
     },
   ];
@@ -53,8 +53,8 @@ function FeaturedWebinar() {
   return (
     <div className='flex flex-col gap-5 pb-10 px-30 pt-50 bg-slate-950' >
         <div className='flex flex-col justify-center items-center gap-3' >
-            <h2 className='text-cyan-500/50 font-medium text-sm md:text-md' >FEATURED WEBINARS</h2>
-            <p className='font-bold text-4xl md:text-5xl' >ENHANCE YOUR MUSICAL JOURNEY</p>
+            <h2 className='text-cyan-500/50 font-medium text-sm md:text-md' >UPCOMING LIVE STREAMS</h2>
+            <p className='font-bold text-4xl md:text-5xl' >ENHANCE YOUR CREATOR JOURNEY</p>
         </div>
         <HoverEffect 
         className='gap-5'
