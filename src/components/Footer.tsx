@@ -20,13 +20,10 @@ function Footer() {
                         <a href="#">Home</a>
                     </li>
                     <li className='mb-2' >
-                        <a href="#">About</a>
+                        <a href="/courses">Master Classes</a>
                     </li>
                     <li className='mb-2' >
-                        <a href="#">Master Classes</a>
-                    </li>
-                    <li className='mb-2' >
-                        <a href="#">Contact</a>
+                        <a href="/contact-us">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -34,13 +31,10 @@ function Footer() {
                 <h2 className='font-bold mb-7' >Follow Us</h2>
                 <ul>
                     <li className='mb-2' >
-                        <a href="#">Instagram</a>
+                        <a href="https://www.linkedin.com/in/aashutosh-patel-a318982b2/">LinkedIn</a>
                     </li>
                     <li className='mb-2' >
-                        <a href="#">Twitter</a>
-                    </li>
-                    <li className='mb-2' >
-                        <a href="#">Facebook</a>
+                        <a href="https://github.com/Aashutoshpatel11">Github</a>
                     </li>
                 </ul>
             </div>
