@@ -4,7 +4,7 @@ import { CardBody, CardContainer, CardItem } from "../../components/ui/3d-card";
 import coursesData from '../../data/music_courses.json'
 
 interface courseType{
-    id: Number,
+    id: string,
     title: string,
     slug: string,
     description: string,

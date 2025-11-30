@@ -1,7 +1,7 @@
 {
   "courses": [
     {
-      "id": 1,
+      "id": "1",
       "title": "YouTube Fast-Track",
       "slug": "youtube-fast-track",
       "description": "Learn the fundamentals of YouTube success, from scripting to thumbnails and algorithm mastery.",
@@ -11,7 +11,7 @@
       "image": "/courses/youtube.png" 
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "TikTok Viral Growth",
       "slug": "tiktok-viral-growth",
       "description": "Master short-form video and learn the secrets to capturing attention in 15 seconds.",
@@ -21,7 +21,7 @@
       "image": "/courses/tiktok.png" 
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "The Art of Storytelling",
       "slug": "art-of-storytelling",
       "description": "Engage your audience with compelling narratives that build a loyal community.",
@@ -31,7 +31,7 @@
       "image": "/courses/storytelling.png" 
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "Brand Building & Sponsorships",
       "slug": "brand-building-sponsorships",
       "description": "Learn how to define your brand and land your first high-paying sponsorship deals.",
@@ -41,7 +41,7 @@
       "image": "/courses/brand.png"
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "Monetization Strategies",
       "slug": "monetization-strategies",
       "description": "Diversify your income streams beyond ads. We'll cover merch, digital products, and more.",
@@ -51,7 +51,7 @@
       "image": "/courses/monetization.png"
     },
     {
-      "id": 6,
+      "id": "6",
       "title": "Advanced Video Editing",
       "slug": "advanced-video-editing",
       "description": "Take your production quality to the next level with pro techniques in editing and color grading.",
@@ -61,7 +61,7 @@
       "image": "/courses/videoediting.png"
     },
     {
-      "id": 7,
+      "id": "7",
       "title": "Podcast Production 101",
       "slug": "podcast-production-101",
       "description": "Learn the essentials of audio recording, editing, and distributing your first podcast.",
@@ -71,7 +71,7 @@
       "image": "/courses/podcast.png"
     },
     {
-      "id": 8,
+      "id": "8",
       "title": "Instagram Influence",
       "slug": "instagram-influence",
       "description": "Master Reels, Stories, and Carousels to build a powerful presence on Instagram.",
@@ -81,7 +81,7 @@
       "image": "/courses/influence.png"
     },
     {
-      "id": 9,
+      "id": "9",
       "title": "Community Building Secrets",
       "slug": "community-building-secrets",
       "description": "Explore strategies for building and managing a thriving online community (e.g., Discord, Patreon).",
@@ -91,7 +91,7 @@
       "image": "/courses/community.png"
     },
     {
-      "id": 10,
+      "id": "1",
       "title": "Copywriting for Creators",
       "slug": "copywriting-for-creators",
       "description": "Write captions, titles, and descriptions that convert viewers into subscribers.",

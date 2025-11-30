@@ -6,7 +6,7 @@ import coursesData from '@/data/music_courses.json'
 import { BackgroundGradient } from './ui/background-gradient'
 
 interface Course{
-    id: Number,
+    id: string,
     title: String,
     slug: String,
     description: String,
